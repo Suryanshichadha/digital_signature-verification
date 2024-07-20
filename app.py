@@ -1,6 +1,6 @@
 import streamlit as st
-from .sign_document import sign_document
-from .verify_document import verify_document
+from sign_document import sign_document
+from verify_document import verify_document
 import os
 
 def save_uploadedfile(uploadedfile, folder):
