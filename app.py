@@ -19,6 +19,7 @@ footer_html ="""
             border-radius: 10px;
         }
         .footer {
+            position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
@@ -49,7 +50,7 @@ st.sidebar.write("2. If you want to verify the document upload the documents and
 if page == "Home":
     st.image("dig.png",width=400)
     st.write("WELCOME TO THE DOCUMENT AUTHENTICATION APPLICATION.")
-    st.write("hello hope you are doing great and your documents too....")
+    st.write("Hello hope you are doing great and your documents too....")
     st.write("Let me help you with your document verification, i can also give a signature to your document.")
     st.write("This application helps you create a sign for your document and let you verify the integrity of the documents.")
     st.write("A digital signature is a mathematical scheme for verifying the authenticity and integrity of digital messages or documents.")
