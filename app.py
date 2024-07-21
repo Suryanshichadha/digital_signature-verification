@@ -11,7 +11,7 @@ def save_uploadedfile(uploadedfile, folder):
         f.write(uploadedfile.read())
     return file_path
 
-st.title("Digital Signature Application")
+st.title("Digital Signature Generator and Verification")
 
 # Sidebar for navigation
 page = st.sidebar.selectbox("Choose a function", ["Home", "Sign Document", "Verify Document"])
