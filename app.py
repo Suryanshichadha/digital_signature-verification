@@ -19,7 +19,6 @@ footer_html ="""
             border-radius: 10px;
         }
         .footer {
-            position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
@@ -43,7 +42,7 @@ st.title("DOCUMENT AUTHENTICATION")
 page = st.sidebar.selectbox("Choose a function", ["Home", "Sign Document", "Verify Document"])
 
 st.sidebar.write("STEPS TO BE FOLLOWED")
-st.sidebar.write("Select the function to be performed")
+st.sidebar.write("Select the function to be performed from the side menu drop options")
 st.sidebar.write("1. If you want to generate sign for a document choose sign document from drop down and download the sign and hash")
 st.sidebar.write("2. If you want to verify the document upload the documents and click verify ")
 
