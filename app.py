@@ -37,7 +37,7 @@ footer_html ="""
     </div>"""
 
 st.title("DOCUMENT AUTHENTICATION")
-st.image("dig.png",width=400)
+
 
 
 page = st.sidebar.selectbox("Choose a function", ["Home", "Sign Document", "Verify Document"])
@@ -48,6 +48,7 @@ st.sidebar.write("1. If you want to generate sign for a document choose sign doc
 st.sidebar.write("2. If you want to verify the document upload the documents and click verify ")
 
 if page == "Home":
+    st.image("dig.png",width=400)
     st.write("WELCOME TO THE DOCUMENT AUTHENTICATION APPLICATION.")
     st.write("hello hope you are doing great and your documents too....")
     st.write("Let me help you with your document verification, i can also give a signature to your document.")
