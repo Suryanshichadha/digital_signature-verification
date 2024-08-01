@@ -32,7 +32,7 @@ footer_html ="""
         }
     </style>
     <div class="footer">
-        <p>© surya's Digital Signature Application. All rights reserved </p>
+        <p>© Surya and Suman Digital Signature Application. All rights reserved </p>
         <p><a href="https://github.com/Suryanshichadha/digital_signature-verification" target="_blank">GitHub Repository</a></p>
     </div>"""
 
